@@ -31,7 +31,7 @@ body {
   }
 }
 a {
-  color: #ea4a55;
+  color: #072b48;
   text-decoration: none;
 }
 
@@ -390,7 +390,7 @@ Main components
   width: 30px;
   height: 30px;
   border-radius: inherit;
-  background: #ea4a55;
+  background: #072b48;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.3);
   z-index: 2;
   -webkit-transition: background-color 0.3s;
@@ -773,7 +773,7 @@ Main components
   top: 50%;
   bottom: auto;
   right: auto;
-  background-color: #ea4a55;
+  background-color: #072b48;
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
   -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
   -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
