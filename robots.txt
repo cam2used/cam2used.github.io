@@ -3,8 +3,11 @@ User-agent: Mediapartners-Google
 Disallow:
 
 User-Agent: *
+
 Allow: /
+
 Disallow: /
+
 Noindex: /
 
 Sitemap: https://cam2used.com/sitemap.xml
