@@ -3,6 +3,7 @@ User-agent: Mediapartners-Google
 Disallow:
 
 User-Agent: *
+Allow: /
 Allow: /ads/preferences/
 Allow: /gpt/
 Allow: /pagead/show_ads.js
