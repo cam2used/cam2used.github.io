@@ -2,7 +2,7 @@ User-agent: Mediapartners-Google
 
 Disallow:
 
-User-Agent: *
+User-agent: *
 
 Allow: /
 
