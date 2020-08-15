@@ -10,7 +10,7 @@ Allow: /pagead/js/adsbygoogle.js
 Allow: /pagead/js/*/show_ads_impl.js
 Allow: /static/glade.js
 Allow: /static/glade/
-Disallow: 
-Noindex: 
+Disallow:
+Noindex:
 
 Sitemap: https://cam2used.com/sitemap.xml
