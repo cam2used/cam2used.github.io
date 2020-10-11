@@ -113,13 +113,19 @@
 <hr><center>
 <p><strong>مصرف الراجحي<br>
 عبدالرحمن عبدالعزيز المعبدي<br>
-رقم الحساب: 463608010115376<br>
-SA2480000463608010115376 :الايبان</strong></p>
+رقم الحساب : <b>463608010115376</b>
+<input id="btnCopy" type="button" value="نسخ"/><br>
+<b>SA2480000463608010115376</b> : الايبان
+<input id="btnCopy" type="button" value="نسخ"/><br>
+</strong></p>
 <hr>
 <p><strong>البنك الأهلي التجاري<br>
 عبدالرحمن عبدالعزيز المعبدي<br>
-رقم الحساب: 10455837000300<br>
-SA1610000010455837000300 :الايبان</strong></p>
+رقم الحساب : <b>10455837000300</b>
+<input id="btnCopy" type="button" value="نسخ"/><br>
+<b>SA1610000010455837000300</b> : الايبان
+<input id="btnCopy" type="button" value="نسخ"/><br>
+</strong></p>
 </center><hr>
 	
 	<!--إعلان قوقل-->
@@ -135,6 +141,29 @@ SA1610000010455837000300 :الايبان</strong></p>
 </script>
 </div>
 	<!--إعلان قوقل-->
+		
+	<!--سكربت النسخ-->
+<script>
+const btnsInput = document.querySelectorAll('#btnCopy');
+for(let i=0 ; i < btnsInput.length ; i++){
+btnsInput[i].addEventListener("click",() => {
+const original = btnsInput[i].value;
+btnsInput[i].value = "تم النسخ";
+setTimeout(function (){
+btnsInput[i].value = original;
+},1200);
+let xs = btnsInput[i].previousElementSibling;
+const range = document.createRange();
+range.selectNode(xs);
+const selection = window.getSelection();
+selection.removeAllRanges();
+selection.addRange(range);
+document.execCommand("copy");
+});
+}
+</script>
+	<!--سكربت النسخ-->
+	
 </form>
 </div>
 			<!-- الكود -->
