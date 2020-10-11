@@ -113,8 +113,10 @@
 <hr><center>
 <p><strong>مصرف الراجحي<br>
 عبدالرحمن عبدالعزيز المعبدي<br>
-رقم الحساب: 463608010115376<br>
-SA2480000463608010115376 :الايبان</strong></p>
+رقم الحساب: <div>463608010115376</div><br>
+<input id="btnCopy" type="button" value="نسخ"/> </div>
+<div>SA2480000463608010115376</div> :الايبان</strong>
+<input id="btnCopy" type="button" value="نسخ"/> </div></p>
 <hr>
 <p><strong>البنك الأهلي التجاري<br>
 عبدالرحمن عبدالعزيز المعبدي<br>
@@ -122,6 +124,28 @@ SA2480000463608010115376 :الايبان</strong></p>
 SA1610000010455837000300 :الايبان</strong></p>
 </center><hr>
 	
+	
+	<!--سكربت النسخ-->
+<script>
+const btnsInput = document.querySelectorAll('#btnCopy');
+for(let i=0 ; i < btnsInput.length ; i++){
+btnsInput[i].addEventListener("click",() => {
+const original = btnsInput[i].value;
+btnsInput[i].value = "تم النسخ";
+setTimeout(function (){
+btnsInput[i].value = original;
+},1200);
+let xs = btnsInput[i].previousElementSibling;
+const range = document.createRange();
+range.selectNode(xs);
+const selection = window.getSelection();
+selection.removeAllRanges();
+selection.addRange(range);
+document.execCommand("copy");
+});
+}
+</script>
+	<!--سكربت النسخ-->
 	<!--إعلان قوقل-->
 	<div align="center">
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
