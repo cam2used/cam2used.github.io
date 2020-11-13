@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-beta.haraj.com.sa	TRUE	/	FALSE	1999999999	LAST_VISIT	1605192659.955
-
