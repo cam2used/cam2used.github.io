@@ -6090,7 +6090,7 @@ input[type=range]::-ms-thumb {
 	flex-wrap: wrap
 }
 .commission_wrapper .banks_details_wrapper .bank_details {
-	width: 32%;
+	width: 50%;
 	box-sizing: border-box;
 	background-color: #fff;
 	border-radius: 15px;
