@@ -900,8 +900,8 @@ Main components
 	word-break: break-all;
 }
 .cal_contnet .output_wrapper .result .currency {
-	font-size: 1rem;
-	color: #000;
+	font-size: 2.5rem;
+	color: #d6dee6;
 }
 .cal_contnet .output_wrapper .result #more_info_logo {
 	position: absolute;
@@ -917,4 +917,18 @@ Main components
 	align-items: center;
 	color: #f8faff;
 	cursor: pointer;
+}
+
+
+::placeholder {
+  color: #d6dee6;
+  opacity: 1; 
+}
+
+:-ms-input-placeholder { 
+ color: #d6dee6;
+}
+
+::-ms-input-placeholder { 
+ color: #d6dee6;
 }
