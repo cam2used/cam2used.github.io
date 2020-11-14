@@ -105,11 +105,16 @@
 				$("#commissionvaluediscount").text(Math.floor(total * factorDiscount));
 				}
 	</script>
-	<p size="6"><input type="text" pattern="\d*" class="form-control formcommission" inputmode="numeric" name="total" size="8" maxlength="15" placeholder="6000" autocorrect="off" autocomplete="off" style="text-align: center; direction: ltr; " onkeyup="funCalCommission();">
-	<b>ادخل سعر البيع</b>
- <center><font size="6" color="#fff"> العمولة هي:
-<span class="label label-primary" id="commissionvalue"> 0</span> ريال</font></center>
-	</p>
+	<!--سكربت الجديد-->
+<div id="cal_wrapper">
+	<h1>حساب العمولة</h1>
+	<div class="cal_contnet">
+		<div class="com_input_wrapper"><span>ادخل سعر البيع</span>
+			<input type="text" pattern="\d*" name="total" maxlength="15" autocorrect="off" inputmode="numeric" autocomplete="off" placeholder="6000" value="" style="text-align: center; direction: ltr;" onkeyup="funCalCommission();">
+		</div>
+		<div class="output_wrapper"><span class="labal">العمولة المستحقة</span><span class="result" id="commissionvalue"><span></span><span class="currency"> ريال</span></span>
+		</div>
+<!--سكربت الجديد-->
 <hr><center>
 <p><strong>مصرف الراجحي<br>
 عبدالرحمن عبدالعزيز المعبدي<br>
