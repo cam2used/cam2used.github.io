@@ -837,7 +837,7 @@ Main components
 	justify-content: center;
 	align-items: center;
 	color: #000;
-	flex: 5;
+	flex: 6;
 }
 .cal_contnet .com_input_wrapper input {
 	flex: 8;
@@ -878,7 +878,7 @@ Main components
 }
 .cal_contnet .output_wrapper .labal {
 	border-left: 1px solid #d4d6de;
-	flex: 5;
+	flex: 6;
 	padding: 10px 0;
 	display: flex;
   color: #000;
